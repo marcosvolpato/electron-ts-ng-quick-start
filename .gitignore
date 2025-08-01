@@ -41,6 +41,7 @@ testem.log
 .DS_Store
 Thumbs.db
 
-.package-lock.json
+package-lock.json
 
 /electronAppStart-win32-x64
+.env

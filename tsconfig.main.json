@@ -5,6 +5,9 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": false,
+    // "esModuleInterop": true,
     "outDir": "./dist",
     "sourceMap": true,
     "typeRoots": [
