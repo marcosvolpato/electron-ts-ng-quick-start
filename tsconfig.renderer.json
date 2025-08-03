@@ -4,12 +4,15 @@
   "extends": "./tsconfig.ng.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "rootDir": "./",
     "types": []
   },
   "include": [
-    "src-renderer/**/*.ts"
+    "src-renderer/**/*.ts",
+    "src-shared/**/*.ts"
   ],
   "exclude": [
-    "src-renderer/**/*.spec.ts"
+    "src-renderer/**/*.spec.ts",
+    "src-main"
   ]
 }

@@ -14,13 +14,16 @@
       "node_modules/@types"
     ],
     "types": ["node"],
-    "rootDir": "./src-main",
+    "rootDir": "./",
     "lib": ["es2015","dom"],
     "baseUrl": "./",
     "paths": {
       "*": ["node_modules/*"]
     }
   },
-  "include": ["src-main/**/*.ts"],
+  "include": [
+    "src-main/**/*.ts",
+    "src-shared/**/*.ts"
+  ],
   "exclude": ["node_modules", "dist", "**/*.spec.ts", "src-renderer"]
 }

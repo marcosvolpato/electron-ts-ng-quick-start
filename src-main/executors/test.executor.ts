@@ -1,6 +1,6 @@
 import { injectable } from "tsyringe";
 import { Executor } from "./executor";
-import { IPCEvent } from "../models/common.model";
+import { IPCEvent } from "../../src-shared/models/common.model";
 
 @injectable()
 export class TestExecutor extends Executor {

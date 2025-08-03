@@ -1,7 +1,7 @@
 {
   "name": "electron-ts-ng-quick-start",
   "version": "0.0.0",
-  "main": "dist/main/main.js",
+  "main": "dist/src-main/main/main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

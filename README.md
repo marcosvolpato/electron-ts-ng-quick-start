@@ -13,10 +13,16 @@ Projeto electron vazio utilizando angular no renderer process e typescript no ma
 | Electron    | 37.2.4      |
 
 ## Servidor local
-Para iniciar a aplicação localmente, rode:
+Para iniciar a aplicação localmente gerando o build, rode:
 
 ```bash
 npm run start:electron
+```
+
+Para iniciar a aplicação localmente com live reload, rode:
+
+```bash
+npm run start:electron-serve
 ```
 
 ## Gerar executável
@@ -31,7 +37,3 @@ Para gerar o arquivo executável e suas dependências(para windows), rode o coma
 Na pasta src-main encontram-se os arquivos typescript que rodaram no processo principal (main process).
 
 Já, na pasta src-renderer encontram-se os arquivos angular que rodaram no processo de renderização (renderer process).
-
-## TO-DO
-- implementar injeção de dependência com ts-ring no source do main process
-- garantir que o rebuild aconteça caso arquivos sejam alterados tanto no renderer quanto no main process quando rodar o servidor local(start:electron)

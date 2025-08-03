@@ -5,7 +5,7 @@ import { ExecutorResolver } from '../executors/executor.resolver';
 import * as dotenv from 'dotenv';
 import { Consts } from '../utils/consts.util';
 import * as fs from 'fs';
-import { IPCEvent } from '../models/common.model';
+import { IPCEvent } from '../../src-shared/models/common.model';
 
 
 class Main {

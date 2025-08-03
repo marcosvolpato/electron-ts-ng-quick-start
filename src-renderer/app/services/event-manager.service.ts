@@ -1,7 +1,7 @@
 import { Injectable, NgZone } from '@angular/core';
 import { IpcRenderer } from 'electron';
 import { Observable, of } from 'rxjs';
-import { IPCEvent } from '../models/common.model';
+import { IPCEvent } from '../../../src-shared/models/common.model';
 
 @Injectable({
   providedIn: 'root'
